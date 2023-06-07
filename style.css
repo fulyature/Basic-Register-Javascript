@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: auto;
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: 4rem auto;
+  gap: 16px;
+}
+input {
+  width: 100%;
+  height: 56px;
+  color: black;
+  padding: 0 8px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.2rem;
+  border: 2px solid rgb(64, 163, 163);
+}
+button {
+  width: auto;
+  height: 56px;
+  align-self: center;
+  border-radius: 4px;
+  padding: 1rem;
+  border: 2px solid rgb(64, 163, 163);
+  background-color: rgb(225, 242, 238);
+  font-size: 1.2rem;
+  color: #118686;
+}
